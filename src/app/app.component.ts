@@ -25,7 +25,7 @@ export class AppComponent  {
 
     if ( userPick > this.presentDate ) {
       this.input1 = this.input1;
-      this.errorMessage = 'time for the future dude!'
+      this.errorMessage = 'this is a future time dude!'
     }
     if (userPick.getHours() > this.input1){
       this.errorMessage = "Wrong Hours dude!"
