@@ -38,3 +38,5 @@ export class AppComponent  {
     }
   }
 }
+
+//https://demos.telerik.com/kendo-ui/datetimepicker/rangeselection
