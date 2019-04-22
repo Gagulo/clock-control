@@ -10,6 +10,7 @@
            placeholder="Datepicker"
            class="form-control"
            bsDatepicker
+           [(ngModel)]="userPick"
            [minDate]='presentDate'
            [bsConfig]="{dateInputFormat: 'DD-MM-YYYY', showWeekNumbers: false}">
   </div>
