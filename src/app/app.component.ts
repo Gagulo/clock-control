@@ -30,10 +30,10 @@ export class AppComponent  {
       this.input2 = this.userPick.getMinutes();
       this.errorMessage = 'This is a future time dude!'
     }
-    if ( this.userPick.getHours() > this.input1 ){
+    if ( this.presentDate.getHours() > this.input1 ){
       this.errorMessage = "Past Hours dude!"
     }
-    if ( this.userPick.getMinutes() > this.input2 ){
+    if ( this.presentDate.getMinutes() > this.input2 ){
       this.errorMessage = "Past Minutes dude!"
     }
   }
